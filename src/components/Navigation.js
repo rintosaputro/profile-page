@@ -30,8 +30,8 @@ const Navigation = () => {
           <img className="btn-fluid" src={logo} alt="logo" />
         </a>
         <form className="nav-form d-none d-lg-flex position-relative">
-          <input className="form-control me-2" type="search" placeholder="Cari..." aria-label="Search" />
-          <button className="btn pe-4 me-2 position-absolute end-0" type="submit" aria-label="Search"><FiSearch /></button>
+          <input className="form-control ps-4 me-2" type="search" placeholder="Cari..." aria-label="Search" />
+          <button className="btn pe-4 me-2 text-muted position-absolute end-0" type="submit" aria-label="Search"><FiSearch /></button>
         </form>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="icon-menu bold text-primary fs-2">
