@@ -1,0 +1,45 @@
+$primary: #05B1A1 !default;
+
+.navbar {
+ .navbar-collapse {
+   max-width: fit-content;
+ }
+ .nav-item {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+ }
+ .nav-form {
+   width: 25%;
+   .form-control {
+    padding-right: 70px;
+    border: none !important;
+    border-radius: 15px;
+    background-color: #f5fbff;
+   }
+   .form-control, .btn {
+    height: 50px;
+   }
+ }
+ .profile {
+   border: 3px solid $primary;
+   border-radius: 50px;
+   background-color: $primary;
+   max-width: 40px;
+ }
+ .img-profile {
+   width: 50px;
+   height: 50px;
+ }
+ @media (max-width: 992px) {
+   .navbar-collapse {
+     max-width: none;
+   }
+   .nav-item, .nav-link {
+     width: 100%;
+   }
+   .nav-link {
+     text-align: center;
+   }
+ }
+}
