@@ -1,6 +1,9 @@
 $primary: #05B1A1 !default;
 
 .navbar {
+  box-shadow: 0px 6px 5px 0px rgba(97,198,229,0.1);
+  -webkit-box-shadow: 0px 6px 5px 0px rgba(97,198,229,0.1);
+  -moz-box-shadow: 0px 6px 5px 0px rgba(97,198,229,0.1);
  .navbar-collapse {
    max-width: fit-content;
  }
@@ -10,15 +13,15 @@ $primary: #05B1A1 !default;
   height: 40px;
  }
  .nav-form {
-   width: 25%;
+   width: 524px;
    .form-control {
     padding-right: 70px;
     border: none !important;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: #f5fbff;
    }
    .form-control, .btn {
-    height: 50px;
+    height: 52px;
    }
  }
  .profile {

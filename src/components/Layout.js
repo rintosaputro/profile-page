@@ -4,9 +4,11 @@ import Navigation from './Navigation';
 import '../assets/styles/layout.scss';
 
 const Layout = ({ children }) => (
-  <div className="layout">
+  <div>
     <Navigation />
-    {children}
+    <div className="layout">
+      {children}
+    </div>
   </div>
 );
 
