@@ -4,10 +4,10 @@ const Button = ({
   color, isSubmit, event, rounded, children,
 }) => (
   <button
-    className={`btn text-white ${rounded && 'rounded-pill'} ${color === 'secondary' ? 'btn-secondary' : 'btn-primary'}`}
+    className={`btn text-white ${rounded && 'rounded-pill shadow'} ${color === 'secondary' ? 'btn-secondary' : 'btn-primary'}`}
     onClick={event}
     type={isSubmit ? 'submit' : 'button'}
-    style={{ width: '210px', height: '50px' }}
+    style={{ width: '210px', height: `${rounded ? '55px' : '50px'}` }}
   >
     {children}
   </button>

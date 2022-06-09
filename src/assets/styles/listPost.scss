@@ -1,0 +1,26 @@
+$secondary: #A3A3A3;
+$primary: #05B1A1;
+
+.btn-list {
+  color: $secondary;
+  .icon-container {
+    height: 30px;
+    width: 30px;
+    border: 1px solid $secondary;
+  }
+}
+.btn-list:hover {
+  color: $primary;
+  background-color: #ddf1f7;
+  .icon-container, .icon-container svg path{
+    color: white;
+    fill: white;
+    stroke: white;
+    display: inline-block;
+    background-color: $primary;
+  }
+}
+.btn:focus {
+  box-shadow: none !important;
+}
+

@@ -1,0 +1,18 @@
+aside {
+ .point {
+   width: 13%;
+ }
+ .text-completeness {
+   font-weight: 500;
+ }
+ meter {
+   padding: 0 3px;
+ }
+ meter::-webkit-meter-optimum-value {
+  background: #EA6C00;
+  }
+  .list-post-section {
+    list-style-type: none;
+    width: 100%;
+  }
+}

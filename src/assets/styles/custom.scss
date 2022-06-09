@@ -2,5 +2,15 @@
 $primary: #05B1A1 !default;
 // $light: #F5FBFF !default;
 $light: #e3e3e3 !default;
+$success: #EA6C00 !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1000px,
+  xxl: 1000px
+);
+
 
 @import "bootstrap/scss/bootstrap";

@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 import '../assets/styles/layout.scss';
 
 const Layout = ({ children }) => (
-  <div>
+  <div className="layout">
     <Navigation />
     <div className="container">
       {children}
