@@ -4,10 +4,12 @@ import Navigation from './Navigation';
 import '../assets/styles/layout.scss';
 
 const Layout = ({ children }) => (
-  <div className="layout">
+  <div>
     <Navigation />
-    <div className="container">
-      {children}
+    <div className="layout">
+      <div className="container">
+        {children}
+      </div>
     </div>
   </div>
 );
