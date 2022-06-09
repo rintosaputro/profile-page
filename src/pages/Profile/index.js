@@ -16,10 +16,10 @@ const Profile = () => {
       <div className="profile-page">
         <HeaderProfile />
         <div className="row">
-          <div className="col-5">
+          <div className="col-12 col-md-5">
             <Aside />
           </div>
-          <section className="col-7 mt-4">
+          <section className="col-12 col-md-7 mt-4">
             {post?.posts.map((data) => (
               <div key={data.id}>
                 <Post photoProfile={photoProfile} name={fullName} post={data} />

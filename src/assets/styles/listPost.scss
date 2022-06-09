@@ -9,7 +9,7 @@ $primary-blue: #05B1A1;
     border: 1px solid $secondary-gray;
   }
 }
-.btn-list:hover {
+.btn-list:hover, .btn-main {
   color: $primary-blue;
   background-color: #ddf1f7;
   .icon-container, .icon-container svg path{
