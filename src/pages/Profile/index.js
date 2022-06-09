@@ -1,24 +1,35 @@
 import React from 'react';
 import HeaderProfile from './Header';
 
-import Layout from '../../components/Layout';
 import '../../assets/styles/profile/profile.scss';
-import Aside from './Aside';
 
-const Profile = () => (
-  <Layout>
-    <div className="profile-page">
-      <HeaderProfile />
-      <div className="row">
-        <div className="col-5">
-          <Aside />
+import Layout from '../../components/Layout';
+import Aside from './Aside';
+import Post from '../../components/Post';
+
+import profile from '../../data-dummy/profile';
+
+const Profile = () => {
+  const { photoProfile, fullName, post } = profile;
+  return (
+    <Layout>
+      <div className="profile-page">
+        <HeaderProfile />
+        <div className="row">
+          <div className="col-5">
+            <Aside />
+          </div>
+          <section className="col-7 mt-4">
+            {post?.posts.map((data) => (
+              <div key={data.id}>
+                <Post photoProfile={photoProfile} name={fullName} post={data} />
+              </div>
+            ))}
+          </section>
         </div>
-        <section className="col-7">
-          section
-        </section>
       </div>
-    </div>
-  </Layout>
-);
+    </Layout>
+  );
+};
 
 export default Profile;

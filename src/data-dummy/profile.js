@@ -15,7 +15,8 @@ const profile = {
     totalPost: 12,
     posts: [
       {
-        category: 'opini',
+        id: 1,
+        category: 'Opini',
         title: 'Belajar Menjadi Manusia',
         image: imagePost,
         contents: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
@@ -24,9 +25,11 @@ const profile = {
         comments: 15,
         views: 2,
         reposts: 12,
+        createdAt: new Date('2022-06-08T12:00:00Z'),
       },
       {
-        category: 'opini',
+        id: 2,
+        category: 'Opini',
         title: 'Belajar Menjadi Manusia',
         image: imagePost,
         contents: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
@@ -35,6 +38,7 @@ const profile = {
         comments: 15,
         views: 2,
         reposts: 12,
+        createdAt: new Date('2022-06-08T12:00:00Z'),
       },
     ],
   },
