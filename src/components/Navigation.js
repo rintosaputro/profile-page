@@ -24,7 +24,7 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-lg navbar-light mb-2">
       <div className="container-fluid">
         <a className="navbar-brand" href="#home">
           <img className="btn-fluid" src={logo} alt="logo" />
