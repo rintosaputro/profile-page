@@ -1,0 +1,26 @@
+$secondary-gray: #A3A3A3;
+$primary-blue: #05B1A1;
+
+.btn-list {
+  color: $secondary-gray;
+  .icon-container {
+    height: 30px;
+    width: 30px;
+    border: 1px solid $secondary-gray;
+  }
+}
+.btn-list:hover, .btn-main {
+  color: $primary-blue;
+  background-color: #ddf1f7;
+  .icon-container, .icon-container svg path{
+    color: white;
+    fill: white;
+    stroke: white;
+    display: inline-block;
+    background-color: $primary-blue;
+  }
+}
+.btn:focus {
+  box-shadow: none !important;
+}
+
