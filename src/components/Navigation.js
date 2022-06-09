@@ -24,10 +24,10 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light mb-2">
+    <nav className="navbar fixed-top bg-white navbar-expand-lg navbar-light mb-2 px-4">
       <div className="container-fluid">
         <a className="navbar-brand" href="#home">
-          <img className="btn-fluid" src={logo} alt="logo" />
+          <img className="logo btn-fluid" src={logo} alt="logo" />
         </a>
         <form className="nav-form d-none d-lg-flex position-relative">
           <input className="form-control ps-4 me-2" type="search" placeholder="Cari..." aria-label="Search" />

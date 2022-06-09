@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import { BiDotsHorizontal } from 'react-icons/bi';
 
@@ -8,14 +7,12 @@ import { FiEye, FiSend } from 'react-icons/fi';
 import { AiOutlineShareAlt } from 'react-icons/ai';
 import { TbRepeat } from 'react-icons/tb';
 
-import profile from '../data-dummy/profile';
 import timePost from '../helper/timePost';
 
 import '../assets/styles/postSection.scss';
 
 const Post = ({ photoProfile, name, post }) => {
   const [fullContent, setFullContent] = useState(false);
-  // const { photoProfile, name, post } = profile;
   const {
     title, contents, image, likes, emotes, comments, views, reposts, createdAt, category,
   } = post;
@@ -30,7 +27,7 @@ const Post = ({ photoProfile, name, post }) => {
   return (
     <article className="post-section card shadow rounded mb-5">
       <div className="row p-3 align-items-center">
-        <div className="col-1 me-3">
+        <div className="col-2 col-lg-1 me-3">
           <img src={photoProfile} alt="profile" className="img-profile rounded-pill" />
         </div>
         <div className="col d-flex flex-row justify-content-between align-items-center">
